@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="XmutLuckV1.Manage.Login" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<%@ Register Src="UserControl/Footer.ascx" TagName="footer" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="/Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <script type="text/javascript" src="<%#Scripts.Url("~/Manage/BaseJs") %>"></script>
+    <script type="text/javascript" src="<%#Scripts.Url("~/Manage/Js") %>"></script>
+    <style type="text/css">
+        .login-block .data-detail {
+            margin: 30px auto;
+        }
+
+        .login-block .reset-password {
+            width: 350px !important;
+        }
+
+        .login-block .data-detail .action a {
+            position: absolute;
+            top: 8px;
+            left: 75px;
+        }
+
+        .login-block .data-detail .action {
+            margin-top: 5px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        (function () {
+            var win = get_TopParent(window);
+            if (win.location.href != window.location.href) {
+                win.location.href = window.location.href;
+            }
+        })();
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManage" runat="server"></asp:ScriptManager>
+        <div class="main">
+            <div class="head">
+            </div>
+            <div class="body">
+                <div class="login-container">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="footer">
+                <uc:footer id="ft" runat="server"></uc:footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

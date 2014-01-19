@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SubMaster.master.cs"
+    Inherits="XmutLuckV1.Manage.SubMaster" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="/Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <%--      <script type="text/javascript" src="/Scripts/jquery-1.9.1.min.js"></script>
+     <script type="text/javascript" src="/Scripts/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/validate/jquery.custom.validate.js"></script>
+
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxinput.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxdropdownlist.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcombobox.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxpanel.js"></script>
+    <script type="text/javascript" src="/Scripts/BaseCv.js"></script>
+    <script type="text/javascript" src="/Scripts/XMCATool.js"></script>
+    <script type="text/javascript" src="/Scripts/Prompt.js"></script>--%>
+    <script type="text/javascript" src="<%#Scripts.Url("~/Manage/BaseJs") %>"></script>
+    <script type="text/javascript" src="<%#Scripts.Url("~/Manage/Js") %>"></script>
+    <script type="text/javascript">
+        var formValidate = null;
+        function validate_form() {
+            BeginRequest();
+
+            if (!$("#form1").valid()) {
+                EndRequest();
+                return false;
+            }
+
+            if (typeof validateSumit == "function") {
+                return validateSumit();
+            }
+            return true;
+        }
+        function ShowAjaxLoading() {
+            BeginRequest();
+        }
+
+        function HideAjaxLoading() {
+            EndRequest();
+        }
+
+        (function () {
+            BeginRequest();
+        })();
+        $(function () {
+            formValidate = $("#form1").validate({
+                invalidHandler: function (event, validator) {
+                    var errorNumber = validator.numberOfInvalids();
+                },
+                errorPlacement: function (error, element) {
+                    setElementValidStatus(false, element, error.html());
+                },
+                success: function (label, element) {
+                    setElementValidStatus(true, element, label.html());
+                }
+            });
+            if (typeof initValidation == "function") {
+                initValidation();
+            }
+        });
+        function setElementValidStatus(isvalid, element, errorMsg) {
+            if (isvalid) {
+                $(element).css("border-color", "");
+                $(element).removeAttr("title");
+            } else {
+                $(element).css("border-color", "red");
+                $(element).attr("title", errorMsg);
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="master">
+    <form id="form1" runat="server" onsubmit="return validate_form();">
+        <%--        <script type="text/javascript" src="<%=BundleTable.Bundles.ResolveBundleUrl("~/Manage/BaseJs") %>"></script>
+        <script type="text/javascript" src="<%=BundleTable.Bundles.ResolveBundleUrl("~/Manage/Js") %>"></script>--%>
+        <asp:ScriptManager ID="scriptManage" runat="server">
+            <Services>
+                <asp:ServiceReference Path="~/Ajax/AjaxService.asmx" />
+            </Services>
+        </asp:ScriptManager>
+        <telerik:radajaxloadingpanel id="ajaxLoadingPanel" runat="server" onclientshowing="ShowAjaxLoading" onclienthiding="HideAjaxLoading">
+        </telerik:radajaxloadingpanel>
+        <telerik:radajaxmanager id="ajaxManage" runat="server">
+        </telerik:radajaxmanager>
+        <div class="body-content">
+            <div class="main">
+                <div class="wrap-container">
+                    <div class="wrap-right">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+E:\个人文件夹\项目\履历系统\XmtAcadmicianV2\XmtAcadmicianV2\obj\Debug\XmtAcadmicianV2.csprojResolveAssemblyReference.cache
+E:\个人文件夹\项目\履历系统\XmtAcadmicianV2\XmtAcadmicianV2\obj\Debug\XmtAcadmicianV2.obj.Release.Package.PackageTmp.App_GlobalResources.XmcaResource.resources
+E:\个人文件夹\项目\履历系统\XmtAcadmicianV2\XmtAcadmicianV2\obj\Debug\XmtAcadmicianV2.csproj.GenerateResource.Cache
+D:\Personal\PJO\XmtAcadmicianV2\XmtAcadmicianV2\obj\Debug\XmtAcadmicianV2.csprojResolveAssemblyReference.cache
+D:\Personal\PJO\XmtAcadmicianV2\XmtAcadmicianV2\obj\Debug\XmtAcadmicianV2.obj.Release.Package.PackageTmp.App_GlobalResources.XmcaResource.resources
+D:\Personal\PJO\XmtAcadmicianV2\XmtAcadmicianV2\obj\Debug\XmtAcadmicianV2.csproj.GenerateResource.Cache

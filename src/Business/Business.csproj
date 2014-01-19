@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B978E2F0-F9C6-4E2E-A722-1AEB4DA15D11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business</RootNamespace>
+    <AssemblyName>Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GenerateCodeHelper.cs" />
+    <Compile Include="Interface\Base\IRecruitFlowSettedService.cs" />
+    <Compile Include="Interface\Base\ITeacherGroupService.cs" />
+    <Compile Include="Interface\DepartAdmin\IDepartAdminService.cs" />
+    <Compile Include="Interface\DepartAdmin\IDepartMessageService.cs" />
+    <Compile Include="Interface\Enterprise\IEnterpriseEmailTemplateService.cs" />
+    <Compile Include="Interface\Enterprise\IEnterpriseJobRequestQueueService.cs" />
+    <Compile Include="Interface\Enterprise\IEnterpriseJobRequestService.cs" />
+    <Compile Include="Interface\Enterprise\IEnterpriseJobService.cs" />
+    <Compile Include="Interface\Enterprise\IEnterpriseRecruitBatchService.cs" />
+    <Compile Include="Interface\Enterprise\IEnterpriseService.cs" />
+    <Compile Include="Interface\Enterprise\IJobRequestRecruitStage.cs" />
+    <Compile Include="Interface\Family\IFamilyService.cs" />
+    <Compile Include="Interface\IAuthenticateService.cs" />
+    <Compile Include="Interface\IBaseService.cs" />
+    <Compile Include="Interface\IBaseServiceFactory.cs" />
+    <Compile Include="Interface\ICommentService.cs" />
+    <Compile Include="Interface\IImportService.cs" />
+    <Compile Include="Interface\IMailQueueService.cs" />
+    <Compile Include="Interface\IMessageBoxService.cs" />
+    <Compile Include="Interface\INoticeService.cs" />
+    <Compile Include="Interface\IPublishActivityService.cs" />
+    <Compile Include="Interface\ISystemLogService.cs" />
+    <Compile Include="Interface\Student\IStudentActivityService.cs" />
+    <Compile Include="Interface\Student\IStudentCourseScoreService.cs" />
+    <Compile Include="Interface\Student\IStudentCourseService.cs" />
+    <Compile Include="Interface\Student\IStudentDailyEssayService.cs" />
+    <Compile Include="Interface\Student\IStudentDictoryService.cs" />
+    <Compile Include="Interface\Student\IStudentExercitationService.cs" />
+    <Compile Include="Interface\Student\IStudentPhotoCommentService.cs" />
+    <Compile Include="Interface\Student\IStudentPhotoService.cs" />
+    <Compile Include="Interface\Student\IStudentProfessionalService.cs" />
+    <Compile Include="Interface\Student\IStudentProjectService.cs" />
+    <Compile Include="Interface\Student\IStudentService.cs" />
+    <Compile Include="Interface\Teacher\ITeacherService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\AuthenticateService.cs" />
+    <Compile Include="Service\BaseService.cs" />
+    <Compile Include="Service\Base\RecruitFlowSettedService.cs" />
+    <Compile Include="Service\Base\TeacherGroupService.cs" />
+    <Compile Include="Service\CommonService.cs" />
+    <Compile Include="Service\DepartAdmin\DepartAdminService.cs" />
+    <Compile Include="Service\DepartAdmin\DepartMessageService.cs" />
+    <Compile Include="Service\Enterprise\EnterpriseEmailTemplateService.cs" />
+    <Compile Include="Service\Enterprise\EnterpriseJobRequestQueueService.cs" />
+    <Compile Include="Service\Enterprise\EnterpriseJobRequestService.cs" />
+    <Compile Include="Service\Enterprise\EnterpriseJobService.cs" />
+    <Compile Include="Service\Enterprise\EnterpriseRecruitBatchService.cs" />
+    <Compile Include="Service\Enterprise\EnterpriseService.cs" />
+    <Compile Include="Service\Family\FamilyService.cs" />
+    <Compile Include="Service\ImportService.cs" />
+    <Compile Include="Service\LogService.cs" />
+    <Compile Include="Service\MailQueueService.cs" />
+    <Compile Include="Service\MessageBoxService.cs" />
+    <Compile Include="Service\PublishActivityService.cs" />
+    <Compile Include="Service\Student\StudentActivityCommentService.cs" />
+    <Compile Include="Service\Student\StudentActivityService.cs" />
+    <Compile Include="Service\Student\StudentCourseScoreService.cs" />
+    <Compile Include="Service\Student\StudentCourseService.cs" />
+    <Compile Include="Service\Student\StudentDailyEssayCommentService.cs" />
+    <Compile Include="Service\Student\StudentDailyEssayService.cs" />
+    <Compile Include="Service\Student\StudentDictoryService.cs" />
+    <Compile Include="Service\Student\StudentExercitationCommentService.cs" />
+    <Compile Include="Service\Student\StudentExercitationService.cs" />
+    <Compile Include="Service\Student\StudentPhotoCommentService.cs" />
+    <Compile Include="Service\Student\StudentPhotoService.cs" />
+    <Compile Include="Service\Student\StudentProfessionalCommentService.cs" />
+    <Compile Include="Service\Student\StudentProfessionalService.cs" />
+    <Compile Include="Service\Student\StudentProjectCommetService.cs" />
+    <Compile Include="Service\Student\StudentProjectService.cs" />
+    <Compile Include="Service\Student\StudentService.cs" />
+    <Compile Include="Service\SystemLogService.cs" />
+    <Compile Include="Service\Teacher\TeacherService.cs" />
+    <Compile Include="Service\ThirdUserService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControl\CustomControl.csproj">
+      <Project>{0e70bd88-80ef-431c-a5a1-f9128cae2f1a}</Project>
+      <Name>CustomControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LkDataContext\LkDataContext.csproj">
+      <Project>{1469871b-3a21-41e5-96a3-c71b73809801}</Project>
+      <Name>LkDataContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentation\Presentation.csproj">
+      <Project>{0e53faa5-371c-4648-bd07-15a93727e3dc}</Project>
+      <Name>Presentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebLibrary\WebLibrary.csproj">
+      <Project>{6d658a2e-8a4e-4042-a40d-5fbfde3b2815}</Project>
+      <Name>WebLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

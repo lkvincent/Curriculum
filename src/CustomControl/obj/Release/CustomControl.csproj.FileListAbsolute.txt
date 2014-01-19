@@ -1,0 +1,6 @@
+E:\个人文件夹\项目\履历系统\XMT_Academician\CustomControl\bin\Release\CustomControl.dll
+E:\个人文件夹\项目\履历系统\XMT_Academician\CustomControl\bin\Release\CustomControl.pdb
+E:\个人文件夹\项目\履历系统\XMT_Academician\CustomControl\bin\Release\Telerik.Web.UI.dll
+E:\个人文件夹\项目\履历系统\XMT_Academician\CustomControl\obj\Release\CustomControl.csprojResolveAssemblyReference.cache
+E:\个人文件夹\项目\履历系统\XMT_Academician\CustomControl\obj\Release\CustomControl.dll
+E:\个人文件夹\项目\履历系统\XMT_Academician\CustomControl\obj\Release\CustomControl.pdb

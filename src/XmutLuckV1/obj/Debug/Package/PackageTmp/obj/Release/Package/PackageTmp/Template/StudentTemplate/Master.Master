@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="XmutLuckV1.Template.StudentTemplate.Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/Template/UserControl/MenuControl.ascx" TagName="MenuControl"
+    TagPrefix="uc" %>
+<%@ Register Src="~/Template/UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc" %>
+<%@ Register Src="~/Template/StudentTemplate/UserControl/UserInfo.ascx" TagName="UserInfo"
+    TagPrefix="uc" %>
+<%@ Register Src="~/Template/UserControl/UserStatusControl.ascx" TagName="UserStatusControl"
+    TagPrefix="uc" %>
+<%@ Register Src="~/Template/UserControl/StudentSearchWidget.ascx" TagName="StudentSearchWidget"
+    TagPrefix="uc" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="Stylesheet" href="../../Scripts/thickbox/css/thickbox.css" />
+    <link type="text/css" rel="stylesheet" href="../../Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <script type="text/javascript" src="/Scripts/jqwidgets/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="/Scripts/thickbox/thickbox.js"></script>
+    <script type="text/javascript" src="/Scripts/XMCATool.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("input[type='submit'],input[type='button'],button").jqxButton();
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManage" runat="server">
+        </asp:ScriptManager>
+        <div class="main">
+            <uc:UserStatusControl ID="userControl" runat="server"></uc:UserStatusControl>
+            <div class="head">
+                <uc:StudentSearchWidget id="StudentSearchWidget" runat="server">
+                </uc:StudentSearchWidget>
+                <div class="menu">
+                    <uc:MenuControl id="MenuControl" runat="server">
+                    </uc:MenuControl>
+                </div>
+            </div>
+            <div class="body">
+                <div class="left">
+                    <uc:UserInfo ID="stdUserInfo" runat="server">
+                    </uc:UserInfo>
+                    <asp:ContentPlaceHolder ID="contentLeftContainer" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="right">
+                    <asp:ContentPlaceHolder ID="contentMain" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <br class="clear" />
+            </div>
+            <div class="footer">
+                <uc:Footer id="footer" runat="server">
+                </uc:Footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

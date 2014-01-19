@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="XmutLuckV1.Template.Login" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<%@ Register Src="~/Template/UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="/Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <script type="text/javascript" src="<%#Scripts.Url("~/Manage/BaseJs") %>"></script>
+    <script type="text/javascript" src="<%#Scripts.Url("~/Manage/Js") %>"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="main">
+            <div class="head">
+                <div class="logo">
+                </div>
+            </div>
+            <div class="body">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footer">
+                <uc:footer id="footer" runat="server"></uc:footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

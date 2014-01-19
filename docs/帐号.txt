@@ -1,0 +1,19 @@
+
+http://www.xmtwinkel.com:8081/Login.aspx?ReturnUrl=%2fTemplate%2fDefault.aspx
+1, 前台:http://www.xmtwinkel.com:8081/Template/default.aspx
+2, 点击登入: 选择角色再输入帐号登入
+
+管理员：帐号/密码: admin/1234
+
+企业 帐号/密码: Vincent/1234
+
+老师 帐号/密码: ZY2001002/1234
+
+学生 帐号/密码: 200500213/1234
+
+家长 帐号/密码: 20050021300001/1234
+
+前台:http://www.xmtwinkel.com:8081/Template/default.aspx
+学生首页:http://www.xmtwinkel.com:8081/Template/StudentTemplate/Default.aspx?StudentNum={学生帐号}
+
+

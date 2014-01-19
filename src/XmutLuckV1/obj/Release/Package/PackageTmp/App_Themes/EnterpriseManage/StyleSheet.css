@@ -1,0 +1,14 @@
+﻿@import url("../BaseManage/StyleSheet.css");
+
+.body-content .wrap-right .list .rgEditForm .data-detail {
+    width: 780px;
+    padding: 10px;
+}
+
+    .body-content .wrap-right .list .rgEditForm .data-detail .helptip table {
+        width: 100%;
+    }
+
+        .body-content .wrap-right .list .rgEditForm .data-detail .helptip table tr td:nth-child(2n+1) {
+            text-align: right;
+        }

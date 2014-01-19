@@ -1,0 +1,531 @@
+﻿body {
+    font-family: 华文楷体;
+    color: #000;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+.body-content .main .wrap-container .func-caption {
+    background: url("img/func-group.png") no-repeat;
+}
+.body-content .main .wrap-container .caption {
+    border-bottom: 1.5px dashed rgb(167, 167, 167);
+    padding-bottom: 10px;
+}
+
+    .body-content .main .wrap-container .caption h1 {
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+body .body-content .head .logo {
+    background: url("../../Image/Logo.png") no-repeat;
+    height: 60px;
+    position: relative;
+    left: 160px;
+    top: 40px;
+    width: 600px;
+}
+
+body .body-content .head .manage-level {
+    float: right;
+    left: -50px;
+    top: 50px;
+    position: relative;
+}
+
+body .body-content .xmca-topbar {
+    background-color: whiteSmoke;
+    padding: 5px;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+    body .body-content .xmca-topbar a, .head a {
+        text-decoration: none;
+        color: #000;
+    }
+    body .body-content .xmca-topbar .xmca-container {
+        margin: 0px auto;
+        width: 980px;
+        font-size: 12px;
+    }
+
+        body .body-content .xmca-topbar .xmca-container .xmca-user {
+            float: left;
+        }
+
+        body .body-content .xmca-topbar .xmca-container .xmca-menu {
+            float: right;
+        }
+
+body .body-content .account {
+    float: right;
+    position: relative;
+    left: -220px;
+    top: -60px;
+    background-color: #DFDFDF;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#divMessage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: Red;
+}
+
+.body-content a {
+    text-decoration: none;
+}
+
+    .body-content a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.body-content .main .wrap-right .detail {
+    padding-bottom: 20px;
+}
+
+    .body-content .main .wrap-right .detail .rtsFirst .rtsLink {
+        border-top-left-radius: 15px;
+    }
+
+    .body-content .main .wrap-right .detail .action {
+        margin-bottom: 10px;
+    }
+
+    .body-content .main .wrap-right .detail .editor-description {
+        border: 1px solid #c1c1c1;
+        padding: 2px;
+    }
+
+.body-content .main .wrap-container .wrap-left {
+    border: 1px solid #c1c1c1;
+    float: left;
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    min-height: 420px;
+}
+
+    .body-content .main .wrap-container .wrap-left .main-menu {
+        margin-top: 30px;
+        /*border-top: 1px solid #C3C5C0;
+        border-right: 1px solid #C3C5C0;*/
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+.body-content .main > .wrap-container .wrap-right .caption {
+    background-color: rgb(249, 243, 243);
+    border-bottom: 1px solid #DDD;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.body-content .main > .wrap-container .wrap-right .user-info .block.persional .caption {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.body-content .main > .wrap-container .wrap-right .container {
+    padding: 10px;
+}
+
+.body-content .main .wrap-container .wrap-right .detail .password-block {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid rgb(252, 231, 230);*/
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 20px;
+}
+
+
+    .body-content .main .wrap-container .wrap-right .detail .password-block .container {
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+    .body-content .main .wrap-container .wrap-right .detail .password-block .container > div {
+        width: 226px;
+        margin: auto;
+    }
+
+        .body-content .main .wrap-container .wrap-right .detail .password-block .container  div {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+.body-content .main .wrap-container .wrap-right .user-image .image-container {
+    width: 210px;
+    height: 200px;
+    background-color: #EFEFEF;
+    padding: 5px;
+}
+
+.body-content .main .wrap-container .wrap-right .block fieldset {
+    margin-top: 10px;
+}
+
+.body-content .main .wrap-container .wrap-right .left {
+    float: left;
+    margin: 5px;
+}
+
+.body-content .main .wrap-container .wrap-right .right {
+    float: right;
+    margin: 5px;
+}
+
+.body-content .main .wrap-container .wrap-right .clear {
+    clear: both;
+}
+
+.body-content .main .wrap-container .description {
+    border: 1px solid #c1c1c1;
+    min-height: 90px;
+    max-width: 700px;
+    padding: 4px 2px;
+}
+
+.body-content .head {
+    height: 145px;
+    background-image: url("img/head-new.png");
+}
+
+.body-content .footer {
+    background-color: rgb(242, 222, 221);
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(139,127,133);
+    line-height: 16px;
+}
+
+.body-content .main table th {
+    text-align: right;
+    font-weight: normal;
+}
+
+    .body-content .main table th.multiLine {
+        vertical-align: top;
+    }
+/*upload file*/
+.body-content .main .wrap-container .wrap-right .action .file-Upload {
+    text-align: left;
+}
+
+.fileLabel-Upload .file-Upload {
+    display: block;
+}
+
+    .fileLabel-Upload .file-Upload input[type='submit'] {
+        margin-left: 2px;
+    }
+
+.file-Upload {
+    position: relative;
+    margin-top: 5px;
+}
+
+    .file-Upload input[type="file"] {
+        z-index: 10;
+        position: absolute;
+        opacity: 0;
+        right: 48px;
+        width: 170px;
+    }
+
+    .file-Upload input[type="text"] {
+        float: left;
+        width: 140px;
+    }
+
+    .file-Upload input[type='submit'][id$='btnUpload'] {
+        margin-left: -2px;
+    }
+
+.fileLabel-Upload .file-Upload input[type="file"] {
+    right: 0px;
+}
+
+.body-content .main .wrap-right .fileLabel-Upload .file-Upload input[type="file"] {
+    right: 25px;
+    width: 59px;
+}
+/*end file upload*/
+.body-content .main .wrap-container .wrap-right .detail .func-block .tab-block .container > table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+    .body-content .main .wrap-container .wrap-right .detail .func-block .tab-block .container > table th {
+        width: 90px;
+    }
+
+.body-content .main .wrap-container .wrap-right .detail .func-block .tab-block {
+    border-top: 1px solid #c1c1c1;
+    padding: 10px 0px;
+}
+
+    .body-content .main .wrap-container .wrap-right .detail .func-block .tab-block.attachment-block {
+        padding: 10px 0px;
+    }
+
+.body-content .main .picker-item {
+    float: left;
+}
+
+.body-content .main .picker-label {
+    width: 20px;
+    padding: 0px 5px;
+    line-height: 20px;
+}
+
+.RadRating a, .RadRating a span {
+    background-image: url("img/Sprite.png");
+}
+
+.required {
+    color: Red;
+}
+
+.main .wrap-container .button {
+    /*background:url("img/ButtonSprites.png") no-repeat scroll 0 -254px transparent;*/
+    background: url("img/btn_bg.png") no-repeat;
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    width: 90px;
+    margin-left: 8px;
+    margin-top: 2px;
+    font-size: 14px;
+    border: 0px;
+    cursor: pointer;
+}
+
+    .main .wrap-container .button:hover {
+        background: url("img/btn_bg_hover.png") no-repeat;
+    }
+
+.body-content .main .wrap-container .condition fieldset {
+    padding: 10px;
+}
+/*begin menu*/
+.main-menu .navigate-container a {
+    /*background: url("img/menuItem.jpg") repeat-x;*/
+    background: url("img/menuItemex.png") repeat-x;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    text-align: center;
+    /*border-bottom: 1px solid #C3C5C0;
+    border-left: 1px solid #C3C5C0;*/
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .main-menu .navigate-container a:hover {
+        text-decoration: underline;
+        background: url("img/menuItem.jpg") repeat-x;
+        border: 2px solid #ddd;
+        /*background-color: #E2F1CF;*/
+    }
+    .main-menu .navigate-container a.selected {
+        background: none;
+        background: url("img/menuItem.jpg") repeat-x;
+        border: 2px solid #ddd;
+    }
+
+.main-menu .navigate-container .sub-container a {
+    padding-left: 30px;
+}
+/*end menu*/
+.body-content .main .wrap-container .wrap-right .user-info table th {
+    width: 100px;
+}
+
+.body-content .main .wrap-container .wrap-right .action {
+    text-align: right;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+.body-content .main .wrap-container .wrap-right .detail .action {
+    margin-bottom: 10px;
+}
+
+.body-content .main .wrap-container .wrap-right .user-info .action {
+    padding-right: 65px;
+}
+
+.body-content .main .wrap-container .wrap-right .condition .container {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.body-content .main .wrap-container .wrap-right .detail .fileLabel-Upload table {
+    width: auto;
+}
+
+.body-content .main .wrap-container .wrap-right table.grade-container {
+    width: 470px;
+}
+/*Comment list*/
+.body-content .comment .comment-list {
+    margin-bottom: 10px;
+}
+
+    .body-content .comment .comment-list .caption {
+        border-bottom: 2px solid black;
+    }
+
+    .body-content .comment .comment-list .empty-list {
+        border-top: 1px solid #C1C1C1;
+        padding-top: 10px;
+    }
+
+    .body-content .comment .comment-list > table {
+        margin-top: 10px;
+        border: 1px solid #DDD;
+        border-collapse: collapse;
+    }
+
+        .body-content .comment .comment-list > table td:first-child {
+            background-color: #F3F3F3;
+            padding-left: 10px;
+            width: 120px;
+        }
+
+        .body-content .comment .comment-list > table td {
+            vertical-align: text-top;
+        }
+
+            .body-content .comment .comment-list > table td .comment-container {
+                width: 780px;
+            }
+
+                .body-content .comment .comment-list > table td .comment-container .comment-head {
+                    border-bottom: 1px dashed #DDD;
+                    padding: 10px;
+                    background-color: #F3F3F3;
+                }
+
+                .body-content .comment .comment-list > table td .comment-container .comment-content {
+                    padding: 10px;
+                }
+
+/*msg*/
+.body-content .main .error {
+    color: Red;
+}
+
+    .body-content .main .error .msg-ico {
+        background: url("img/msg.png") no-repeat;
+        display: inline;
+        width: 20px;
+        float: left;
+        height: 16px;
+        margin-left: 5px;
+        /*margin-top:5px;*/
+    }
+
+    .body-content .main .error label {
+        display: inline;
+        float: left;
+        /*margin-top:5px;*/
+        line-height: 15px;
+    }
+/**/
+input[type='submit'], input[type='button'] {
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.Invalid-Value {
+    color: red;
+}
+
+.icons.icon_down {
+    background-image: url("img/down.gif");
+    width: 14px;
+    height: 18px;
+    display: inline-block;
+}
+
+.icons.icon_up {
+    background-image: url("img/up.gif");
+    width: 14px;
+    height: 18px;
+    display: inline-block;
+}
+
+.body-content .widget {
+    background-color: #fff;
+}
+
+.body-content .main .wrap-container .wrap-right .rgEditForm .action {
+    margin-right: 30px;
+}
+
+.body-content .wrap-right .list .rgEditForm .data-detail {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+    .body-content .wrap-right .list .rgEditForm .data-detail .caption {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+
+    .body-content .wrap-right .list .rgEditForm .data-detail .container {
+        padding: 10px;
+    }
+
+.rgPagerCell .rgWrap.rgAdvPart {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+label {
+    line-height: 12px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.data-detail label {
+    line-height: 20px;
+}
+.head .menu {
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 30px;
+}
+.rgSelectedRow {
+    background: rgb(226, 241, 207) url() !important;
+}
+    .rgSelectedRow * {
+        color: #000 !important;
+    }

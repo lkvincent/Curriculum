@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="XmutLuckV1.Template.Login" %>
+
+<%@ Register Src="~/Template/UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <link type="text/css" rel="Stylesheet" href="../Scripts/thickbox/css/thickbox.css" />
+    <link type="text/css" rel="Stylesheet" href="../Scripts/jqtransform/jqtransform.css" />
+    <script type="text/javascript" src="../Scripts/jqwidgets/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../Scripts/thickbox/thickbox.js"></script>
+
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxinput.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxdropdownlist.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxcombobox.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxradiobutton.js"></script>
+    <script type="text/javascript" src="../Scripts/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="../Scripts/XMCATool.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="main">
+            <div class="head">
+                <div class="logo">
+                </div>
+            </div>
+            <div class="body">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footer">
+                <uc:Footer id="footer" runat="server"></uc:Footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

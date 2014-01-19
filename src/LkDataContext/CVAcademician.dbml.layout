@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 23, 57.375" name="CVAcademician">
+  <DataContextMoniker Name="/CVAcademicianDataContext" />
+  <nestedChildShapes>
+    <classShape Id="387b8505-c796-4946-84af-a1fbeed7556c" absoluteBounds="12.25, 24.75, 2, 1.7625655110677059">
+      <DataClassMoniker Name="/CVAcademicianDataContext/ActivityType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="747e3c45-cd44-417d-83a8-5456ec4637c6" absoluteBounds="12.265, 25.21, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a72a689e-10b0-4c06-81bc-863ff3bb5216" absoluteBounds="3.75, 0.75, 2, 1.9535852050781251">
+      <DataClassMoniker Name="/CVAcademicianDataContext/ThirdUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6fb3fe6e-4a21-4799-b33e-a15d91f4e74c" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="64dae92e-9f67-4e5e-bedc-c4bab974a436" absoluteBounds="3.75, 3.75, 2, 1.189506429036459">
+      <DataClassMoniker Name="/CVAcademicianDataContext/CdConfig" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e6762d1-4fb4-4e88-a612-3613518091d4" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.62950642903645826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08f1ee7f-23dd-43c1-b44d-af0d9aa0de93" absoluteBounds="3.75, 12.625, 2, 1.3805261230468737">
+      <DataClassMoniker Name="/CVAcademicianDataContext/CdIndustry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15364e0b-ee02-4b54-b71c-438ec0e13986" absoluteBounds="3.765, 13.085, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="922234e1-db94-4035-8fd8-bfd50d3e336c" absoluteBounds="3.75, 16.875, 2, 1.7625655110677059">
+      <DataClassMoniker Name="/CVAcademicianDataContext/CdRegion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a8ba52c-cb63-4f8f-8c33-7400f2adf5cf" absoluteBounds="3.765, 17.335, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="daade9e1-3396-4f07-9e04-d14aa54e402c" absoluteBounds="9.25, 31.5, 2, 2.3356245930989559">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Course" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e16a0876-542c-4a52-b500-dd82c42419a1" absoluteBounds="9.265, 31.96, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53b49045-0d1e-4d71-a1f3-fbf63eb10f7e" absoluteBounds="6.5, 19.875, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/CVAcademicianDataContext/CourseType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e0b6f7c-2393-41c2-831d-1e9d7e8a01c1" absoluteBounds="6.515, 20.335, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="015757e7-f657-4f01-8b24-15321f67e14f" absoluteBounds="0.75, 34.625, 2, 1.5715458170572987">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Depart" />
+      <nestedChildShapes>
+        <elementListCompartment Id="495e0b0b-b897-4bba-91d0-73a7c0a08eaf" absoluteBounds="0.765, 35.085, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5c34725-347e-4b06-a72f-14e65d475537" absoluteBounds="3.5, 35.625, 2, 2.1446048990885345">
+      <DataClassMoniker Name="/CVAcademicianDataContext/DepartAdmin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b7acc7a-5f20-4431-bf89-5277ed3a0424" absoluteBounds="3.515, 36.085, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e601238-563b-4285-8d90-e5e72988d060" absoluteBounds="9.25, 35, 2, 2.3356245930989559">
+      <DataClassMoniker Name="/CVAcademicianDataContext/DepartMessage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c698b230-f5d0-4caf-98a6-6f8770431745" absoluteBounds="9.265, 35.46, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56847be7-3bee-43b0-a031-7391f2f4269d" absoluteBounds="0.75, 27.375, 2, 1.3805261230468773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Education" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7b1881c-fd23-40a0-9599-4afcfbc26d67" absoluteBounds="0.765, 27.835, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fbe35ddc-e0e6-4013-872b-ad3e92a0b58d" absoluteBounds="0.75, 5.75, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EmailTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71106aa5-fb83-4023-8262-d1c3caa0c763" absoluteBounds="0.765, 6.21, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" absoluteBounds="6.5, 13.125, 2, 5.0099003092447916">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Enterprise" />
+      <nestedChildShapes>
+        <elementListCompartment Id="261faa0b-8a4b-41a2-8de9-59aab33f7fa4" absoluteBounds="6.515, 13.585, 1.9700000000000002, 4.4499003092447911" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4a5a7f0a-bb63-4b0b-b215-a56d222b1b23" absoluteBounds="20.75, 35, 2, 1.3805261230468773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseBatchRelative" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0ac4e25-728a-4042-829a-cdbd952f5c72" absoluteBounds="20.765, 35.46, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5d888bf-7397-4aba-b76b-55dfe8a051a4" absoluteBounds="9.25, 19.75, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseEmailTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66114c2a-7214-4aa0-8625-c4d2aa75c488" absoluteBounds="9.265, 20.21, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="188e0890-7411-49f0-96f3-b5d246f28dc6" absoluteBounds="9.25, 13, 2, 5.3919396972656255">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseJob" />
+      <nestedChildShapes>
+        <elementListCompartment Id="859a7033-8af2-422d-9808-59bf9e2e8cbf" absoluteBounds="9.265, 13.46, 1.9700000000000002, 4.831939697265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="16a61dca-d4cd-451a-9696-ea17ed28d72b" absoluteBounds="14.75, 39.625, 2, 2.1446048990885345">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseJobReferraler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1048566-2127-461a-b0e1-8dd9f43aeb41" absoluteBounds="14.765, 40.085, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="16e64ce6-1308-4c7d-8864-9dd07f780d2c" absoluteBounds="17.5, 39.75, 2, 1.7625655110677059">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseJobReferralerRemark" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a295074-5cdb-4a42-bcca-b2acaa21ccc9" absoluteBounds="17.515, 40.21, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="77c2ff5d-f525-413f-a266-3d327362b700" absoluteBounds="12, 34.75, 2, 1.7625655110677059">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequester" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c22af771-a5ac-4a40-a6e3-4a6d42b6abe7" absoluteBounds="12.015, 35.21, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9fbb5b6f-0eb5-491b-b8dc-ce00f62057ec" absoluteBounds="12, 37.25, 2, 2.7176639811197845">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequestQueue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df17595c-b90d-443d-ace1-5e040ec53b2c" absoluteBounds="12.015, 37.71, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="79be9917-5c96-4b3e-9b4b-5a93a0aaed8e" absoluteBounds="18, 42.875, 2, 1.5715458170572845">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseRecruitBatch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c2cf8a63-b846-44d7-9e5f-4efc5d1aa631" absoluteBounds="18.015, 43.335, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9574cdfe-b8bb-4d13-ad5d-b9e7c19653e2" absoluteBounds="3.75, 14.75, 2, 1.3805261230468755">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseScope" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b0a82c8-2711-4db9-a5c0-8d2a86b5cad9" absoluteBounds="3.765, 15.21, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0139c0b8-b0e1-4fc7-b45f-0140f98351f9" absoluteBounds="3.75, 5.75, 2, 1.3805261230468755">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb934b53-c88c-4833-bad4-7e8acc98aa55" absoluteBounds="3.765, 6.21, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d3f2b53-1c11-4c8c-a849-dd9893586f3a" absoluteBounds="9.25, 10, 2, 1.9535852050781237">
+      <DataClassMoniker Name="/CVAcademicianDataContext/EnterpriseVisited" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f411ae32-2cb4-41aa-9977-9d2f92ab0825" absoluteBounds="9.265, 10.46, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b22a743-0193-4c48-a815-3a1e0a9fbac5" absoluteBounds="11.75, 54.375, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/FamilyAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="86642182-ad30-4df7-9cb2-55d35f4a9a14" absoluteBounds="11.765, 54.835, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6d8027d-d33d-4df2-acf8-4b0d8deeb323" absoluteBounds="20.75, 28.625, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/JobRequestRecruitStage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0f5bbfcd-24c3-492b-a754-860bb41e61ff" absoluteBounds="20.765, 29.085, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0809fa3e-66cf-4a93-ae1f-c0f25e1c2570" absoluteBounds="6.75, 0.75, 2, 2.5266442871093755">
+      <DataClassMoniker Name="/CVAcademicianDataContext/MailQueue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1412f0a8-7319-42e9-bd92-5d7787963b5c" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad81e3ac-ddff-484e-8935-f678d204da61" absoluteBounds="3.5, 33.125, 2, 1.7625655110677059">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Marjor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f834846e-9d5f-419a-b10e-9a0883a3842d" absoluteBounds="3.515, 33.585, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ae9cfca-f752-4fb5-8aa5-f3f4cf08efb3" absoluteBounds="0.75, 0.75, 2, 2.9086836751302076">
+      <DataClassMoniker Name="/CVAcademicianDataContext/MessageBox" />
+      <nestedChildShapes>
+        <elementListCompartment Id="644a386b-7e81-4c86-b6c2-33ccd7b106a2" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f36804a1-5f0b-4b33-87d9-cca845e84fd0" absoluteBounds="12.25, 20.25, 2, 3.0997033691406273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/PublishActivity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c380d03b-07a2-47a6-934f-b2b681bdb831" absoluteBounds="12.265, 20.71, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90fefcd9-8fc7-43f7-b7bc-1c6320ddb130" absoluteBounds="15, 20.5, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/PublishActivityAttachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc8b8ba6-5d9f-48c7-84e3-2677e0eded2c" absoluteBounds="15.015, 20.96, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c301bb93-05ed-4a9e-a360-f2909184f19e" absoluteBounds="18, 20.625, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/RecruitFlowSetted" />
+      <nestedChildShapes>
+        <elementListCompartment Id="82896724-dd86-4d69-bd0c-f323862c827d" absoluteBounds="18.015, 21.085, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="92c7eebd-5732-4300-90c7-b6fb57bdfa39" absoluteBounds="20.75, 38, 2, 1.3805261230468773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/RecruitJobRequester" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8753b59f-b6b2-4c73-8585-24b230afaa03" absoluteBounds="20.765, 38.46, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6f2be6c-8143-462b-8c82-666d0f78cf66" absoluteBounds="6.75, 4.75, 2, 1.7625655110677077">
+      <DataClassMoniker Name="/CVAcademicianDataContext/RewriteRule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f236f1c5-d0dd-48be-8565-cfbacf9b1811" absoluteBounds="6.765, 5.21, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35bc7899-468b-4b4c-a9b7-898117ba4243" absoluteBounds="6.25, 31.125, 2, 7.1111169433593773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Student" />
+      <nestedChildShapes>
+        <elementListCompartment Id="13ca80dd-befe-4423-82dc-9081c236b636" absoluteBounds="6.265, 31.585, 1.9700000000000002, 6.551116943359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="87165f1d-fb9a-4b61-8c11-223eeb4c2cc0" absoluteBounds="9, 23.125, 2, 1.3805261230468773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentAccessLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41078e3c-5751-4510-934f-71a498922f1e" absoluteBounds="9.015, 23.585, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" absoluteBounds="15, 33.75, 2, 3.6727624511718773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentActivity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d20d9c76-fc5b-4fbc-aa19-b71ab2e04618" absoluteBounds="15.015, 34.21, 1.9700000000000002, 3.112762451171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="88545ee1-2b97-4055-b81f-ef3b1ddd6584" absoluteBounds="17.75, 35.75, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentActivityAttachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="13bef6b9-5d66-4a05-9a1a-2e8a945e917e" absoluteBounds="17.765, 36.21, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3ab430e-1b4b-4abf-9619-f33c4bcd8a0a" absoluteBounds="17.75, 32.875, 2, 2.1446048990885345">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentActivityComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97082c3c-353b-49f8-847c-a14921ce0ab0" absoluteBounds="17.765, 33.335, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b15aeed1-a013-4f8e-ba54-10e3221dfc41" absoluteBounds="12, 31.625, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentCourse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="babd5888-4a81-46bc-a654-ee0d3617c299" absoluteBounds="12.015, 32.085, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b91cdac1-bcc4-4ae3-8369-34e593d773ab" absoluteBounds="20.75, 31.625, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentCourseScore" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35b78dbe-ed11-467a-8ecf-99ba2d92181a" absoluteBounds="20.765, 32.085, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ea2664d2-3fc3-4a6e-9e0b-92c4ccb46a97" absoluteBounds="9, 27.875, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentDailyEssay" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f3b8aeb-e4bd-4258-a468-ec946b805e47" absoluteBounds="9.015, 28.335, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05be6520-5c2a-4538-b36c-969133b7eba5" absoluteBounds="11.75, 27.75, 2, 2.1446048990885416">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentDailyEssayComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="789d8d0b-3ccd-433e-a55e-9226b1013223" absoluteBounds="11.765, 28.21, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dcaed7e4-4e1d-42ce-8f1b-702f589859dc" absoluteBounds="9, 50.5, 2, 2.3356245930989559">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentDictory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9874ce78-c39f-418d-b31e-07327d370024" absoluteBounds="9.015, 50.96, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e4b251b-741a-4872-9121-058f58ce654f" absoluteBounds="9, 54.25, 2, 2.9086836751302059">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentFamilyAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e303603-c967-4990-9660-d63e5ad07af1" absoluteBounds="9.015, 54.71, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="100e546d-1186-46e7-ae78-00ca391672b8" absoluteBounds="9, 41.375, 2, 2.1446048990885345">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentJobExpect" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d6adcb4-5a8d-47f1-99fb-8c28e7daf683" absoluteBounds="9.015, 41.835, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2d5dd6bd-a0cb-4d8b-9f36-c02a1c974bf3" absoluteBounds="11.75, 50.5, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentPhoto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a28428f2-2912-4aa6-833e-3fa4f30b3622" absoluteBounds="11.765, 50.96, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a9ac6c0-cb5a-4006-a6c7-7d417e4697a4" absoluteBounds="14.5, 47.625, 2, 2.1446048990885487">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentPhotoComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d297b0f4-167f-4098-8cb9-d69b5820289d" absoluteBounds="14.515, 48.085, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e834fa2e-65af-4fa7-b6da-50415d784268" absoluteBounds="14.5, 50.75, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentPhotoVisit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="519eb53a-104d-4cfe-a21e-2a04e9cff4c7" absoluteBounds="14.515, 51.21, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b43d3d6-2387-4319-a184-1a0c43638cf3" absoluteBounds="9, 44.5, 2, 2.1446048990885345">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentProfessional" />
+      <nestedChildShapes>
+        <elementListCompartment Id="573dd898-efbc-442d-b937-89f02e9582f4" absoluteBounds="9.015, 44.96, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="446be621-9df3-4288-8cab-65751046f61d" absoluteBounds="11.75, 44.25, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentProfessionalAttachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3193edd-ccb0-4e08-8e21-dd2eb4c9efa8" absoluteBounds="11.765, 44.71, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03b656dd-11cb-46c4-bd75-7be93b3784d2" absoluteBounds="15, 24.375, 2, 4.4368412272135416">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentProject" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa09ff9e-38a9-48a0-831f-afc595557f31" absoluteBounds="15.015, 24.835, 1.9700000000000002, 3.876841227213542" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="687e1297-78ff-4054-aff3-0c225e917aae" absoluteBounds="17.75, 26.75, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentProjectAttachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fb96bcb-217e-4e05-82ca-c68f89ef9a9e" absoluteBounds="17.765, 27.21, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5b9f48d-2f41-4984-be95-57140fa43431" absoluteBounds="17.75, 23.875, 2, 2.1446048990885416">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentProjectComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46ec5942-021c-4d40-a104-8884c0d75c40" absoluteBounds="17.765, 24.335, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="99138da4-038c-4678-8770-ceb7135897a4" absoluteBounds="9, 47.625, 2, 2.1446048990885345">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentScore" />
+      <nestedChildShapes>
+        <elementListCompartment Id="356b5ab5-b394-4720-9f82-05be2d6a6a42" absoluteBounds="9.015, 48.085, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c3d385b-1eb3-4363-a1f3-0d1081cc1b46" absoluteBounds="9, 38.75, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/StudentVisited" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e439930-87d8-403a-bfed-18225393b4cb" absoluteBounds="9.015, 39.21, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb16b4cc-d04e-47ff-8c2d-267061d374ba" absoluteBounds="0.75, 8.75, 2, 1.9535852050781237">
+      <DataClassMoniker Name="/CVAcademicianDataContext/SystemLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38054ee9-f88d-4ca0-ab32-dc7e7bc1ab84" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" absoluteBounds="3.5, 26.875, 2, 5.0099003092447916">
+      <DataClassMoniker Name="/CVAcademicianDataContext/Teacher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc1e2380-629c-447f-9045-efd5eccd5405" absoluteBounds="3.515, 27.335, 1.9700000000000002, 4.4499003092447911" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d599bb8d-7826-40ec-8b03-cb2d09b526d3" absoluteBounds="0.75, 29.5, 2, 1.9535852050781273">
+      <DataClassMoniker Name="/CVAcademicianDataContext/TeacherGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59c412b3-34f1-4751-9316-461f744f7384" absoluteBounds="0.765, 29.96, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a3314a1-e5ba-4126-acf8-888d2cfe5c34" absoluteBounds="15, 29.625, 2, 2.5266442871093773">
+      <DataClassMoniker Name="/CVAcademicianDataContext/TeacherRelativeCourse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7351bd77-0f8f-4ce8-8cdb-898d9c161c21" absoluteBounds="15.015, 30.085, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abd241e2-92e8-4909-bf91-0e147b96ca36" absoluteBounds="6.25, 28.625, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/CVAcademicianDataContext/TeacherRelativeGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c28ab44a-b696-4d1c-b151-536d0368ea6b" absoluteBounds="6.265, 29.085, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.45539528902494 : 18.6375655110677); (4.45539528902494 : 18.8875655110677); (5.05863350673578 : 18.8875655110677); (5.05863350673578 : 18.6375655110677)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/CdRegion/CdRegion_CdRegion" />
+      <nodes>
+        <classShapeMoniker Id="922234e1-db94-4035-8fd8-bfd50d3e336c" />
+        <classShapeMoniker Id="922234e1-db94-4035-8fd8-bfd50d3e336c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 21.4465458170573); (7.5 : 28.375); (8.5 : 28.375); (8.5 : 32.6678122965495); (8.66666666666667 : 32.6678122965495 : JumpStart); (8.95833333333333 : 32.6678122965495 : JumpEnd); (9.01041666666667 : 32.6678122965495 : JumpStart); (9.17708333333333 : 32.6678122965495 : JumpEnd); (9.25 : 32.6678122965495)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/CourseType/CourseType_Course" />
+      <nodes>
+        <classShapeMoniker Id="53b49045-0d1e-4d71-a1f3-fbf63eb10f7e" />
+        <classShapeMoniker Id="daade9e1-3396-4f07-9e04-d14aa54e402c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 34.625); (1.75 : 32.6678122965495); (3.04166666666667 : 32.6678122965495 : JumpStart); (3.20833333333333 : 32.6678122965495 : JumpEnd); (4.41666666666667 : 32.6678122965495 : JumpStart); (4.58333333333333 : 32.6678122965495 : JumpEnd); (5.66666666666667 : 32.6678122965495 : JumpStart); (5.83333333333333 : 32.6678122965495 : JumpEnd); (6 : 32.6678122965495); (6 : 30.875); (6.04166666666667 : 30.875 : JumpStart); (6.20833333333333 : 30.875 : JumpEnd); (8.38435897435898 : 30.875 : JumpStart); (8.61717848717948 : 30.875 : JumpEnd); (8.66666666666667 : 30.875 : JumpStart); (8.83333333333333 : 30.875 : JumpEnd); (8.875 : 30.875); (8.875 : 33.2829704448242); (9.01041666666667 : 33.2829704448242 : JumpStart); (9.17708333333333 : 33.2829704448242 : JumpEnd); (9.25 : 33.2829704448242)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Depart/Depart_Course" />
+      <nodes>
+        <classShapeMoniker Id="015757e7-f657-4f01-8b24-15321f67e14f" />
+        <classShapeMoniker Id="daade9e1-3396-4f07-9e04-d14aa54e402c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 35.9107729085286); (3.5 : 35.9107729085286)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Depart/Depart_DepartAdmin" />
+      <nodes>
+        <classShapeMoniker Id="015757e7-f657-4f01-8b24-15321f67e14f" />
+        <classShapeMoniker Id="f5c34725-347e-4b06-a72f-14e65d475537" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 35.2562827555339); (6 : 35.2562827555339); (6 : 38.4861169433594); (6.63541416666667 : 38.4861169433594 : JumpStart); (6.80208083333333 : 38.4861169433594 : JumpEnd); (7.16666666666667 : 38.4861169433594 : JumpStart); (7.33333333333333 : 38.4861169433594 : JumpEnd); (7.43229291666667 : 38.4861169433594 : JumpStart); (7.59895958333333 : 38.4861169433594 : JumpEnd); (7.69791916666667 : 38.4861169433594 : JumpStart); (7.86458583333333 : 38.4861169433594 : JumpEnd); (7.96354541666667 : 38.4861169433594 : JumpStart); (8.13021208333333 : 38.4861169433594 : JumpEnd); (8.66666666666667 : 38.4861169433594 : JumpStart); (8.95833333333333 : 38.4861169433594 : JumpEnd); (8.96354166666667 : 38.4861169433594 : JumpStart); (9.13020833333333 : 38.4861169433594 : JumpEnd); (10.25 : 38.4861169433594); (10.25 : 37.335624593099)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Depart/Depart_DepartMessage" />
+      <nodes>
+        <classShapeMoniker Id="015757e7-f657-4f01-8b24-15321f67e14f" />
+        <classShapeMoniker Id="7e601238-563b-4285-8d90-e5e72988d060" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 37.7696048990885); (4.5 : 38.6111169433594); (6.63541416666667 : 38.6111169433594 : JumpStart); (6.80208083333333 : 38.6111169433594 : JumpEnd); (7.16666666666667 : 38.6111169433594 : JumpStart); (7.33333333333333 : 38.6111169433594 : JumpEnd); (7.43229291666667 : 38.6111169433594 : JumpStart); (7.59895958333333 : 38.6111169433594 : JumpEnd); (7.69791916666667 : 38.6111169433594 : JumpStart); (7.86458583333333 : 38.6111169433594 : JumpEnd); (7.96354541666667 : 38.6111169433594 : JumpStart); (8.13021208333333 : 38.6111169433594 : JumpEnd); (8.66666666666667 : 38.6111169433594 : JumpStart); (8.83333333333333 : 38.6111169433594 : JumpEnd); (8.875 : 38.6111169433594); (8.875 : 36.1678122965495); (9.25 : 36.1678122965495)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/DepartAdmin/DepartAdmin_DepartMessage" />
+      <nodes>
+        <classShapeMoniker Id="f5c34725-347e-4b06-a72f-14e65d475537" />
+        <classShapeMoniker Id="7e601238-563b-4285-8d90-e5e72988d060" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 13.5652630615234); (6.5 : 13.5652630615234)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/CdIndustry/CdIndustry_Enterprise" />
+      <nodes>
+        <classShapeMoniker Id="08f1ee7f-23dd-43c1-b44d-af0d9aa0de93" />
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 17.5049501546224); (6.5 : 17.5049501546224)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/CdRegion/CdRegion_Enterprise" />
+      <nodes>
+        <classShapeMoniker Id="922234e1-db94-4035-8fd8-bfd50d3e336c" />
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 18.1333608477063); (8.875 : 18.5083608477063); (8.875 : 21.0133221435547); (9.25 : 21.0133221435547)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Enterprise/Enterprise_EnterpriseEmailTemplate" />
+      <nodes>
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+        <classShapeMoniker Id="c5d888bf-7397-4aba-b76b-55dfe8a051a4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 15.5979279238532); (9.25 : 15.5979279238532)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Enterprise/Enterprise_EnterpriseJob" />
+      <nodes>
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+        <classShapeMoniker Id="188e0890-7411-49f0-96f3-b5d246f28dc6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.75 : 40.6312827555339); (17.5 : 40.6312827555339)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJobReferraler/EnterpriseJobReferraler_EnterpriseJobReferralerRemark" />
+      <nodes>
+        <classShapeMoniker Id="16a61dca-d4cd-451a-9696-ea17ed28d72b" />
+        <classShapeMoniker Id="16e64ce6-1308-4c7d-8864-9dd07f780d2c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13 : 36.5125655110677); (13 : 36.7625655110677); (13.4791666666667 : 36.7625655110677 : JumpStart); (13.6458333333333 : 36.7625655110677 : JumpEnd); (14.1680234862906 : 36.7625655110677 : JumpStart); (14.3346901529572 : 36.7625655110677 : JumpEnd); (14.75 : 36.7625655110677); (14.75 : 37.6727624511719); (17.5 : 37.6727624511719); (17.5 : 35.5); (19.8229166666667 : 35.5 : JumpStart); (20.0208358333333 : 35.5 : JumpEnd); (20.375 : 35.5); (20.375 : 35.6902630615234); (20.75 : 35.6902630615234)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequester/EnterpriseJobRequester_EnterpriseBatchRelative" />
+      <nodes>
+        <classShapeMoniker Id="77c2ff5d-f525-413f-a266-3d327362b700" />
+        <classShapeMoniker Id="4a5a7f0a-bb63-4b0b-b215-a56d222b1b23" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.25 : 18.3919396972656); (10.25 : 19.5); (11.5 : 19.5); (11.5 : 35.6312827555339); (11.5416666666667 : 35.6312827555339 : JumpStart); (11.7083333333333 : 35.6312827555339 : JumpEnd); (12 : 35.6312827555339)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJob/EnterpriseJob_EnterpriseJobRequester" />
+      <nodes>
+        <classShapeMoniker Id="188e0890-7411-49f0-96f3-b5d246f28dc6" />
+        <classShapeMoniker Id="77c2ff5d-f525-413f-a266-3d327362b700" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 38.6488807255859); (14.2916666666667 : 38.6488807255859 : JumpStart); (14.4583333333333 : 38.6488807255859 : JumpEnd); (14.84375 : 38.6488807255859); (14.84375 : 39.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequestQueue/EnterpriseJobRequestQueue_EnterpriseJobReferraler" />
+      <nodes>
+        <classShapeMoniker Id="9fbb5b6f-0eb5-491b-b8dc-ce00f62057ec" />
+        <classShapeMoniker Id="16a61dca-d4cd-451a-9696-ea17ed28d72b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.5625 : 37.25); (13.5625 : 36.5125655110677)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequestQueue/EnterpriseJobRequestQueue_EnterpriseJobRequester" />
+      <nodes>
+        <classShapeMoniker Id="9fbb5b6f-0eb5-491b-b8dc-ce00f62057ec" />
+        <classShapeMoniker Id="77c2ff5d-f525-413f-a266-3d327362b700" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.781252 : 18.3919396972656); (10.781252 : 19.25); (11.625 : 19.25); (11.625 : 38.6088319905599); (12 : 38.6088319905599)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJob/EnterpriseJob_EnterpriseJobRequestQueue" />
+      <nodes>
+        <classShapeMoniker Id="188e0890-7411-49f0-96f3-b5d246f28dc6" />
+        <classShapeMoniker Id="9fbb5b6f-0eb5-491b-b8dc-ce00f62057ec" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.90625 : 42.875); (19.90625 : 35.2910524495443); (20.75 : 35.2910524495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseRecruitBatch/EnterpriseRecruitBatch_EnterpriseBatchRelative" />
+      <nodes>
+        <classShapeMoniker Id="79be9917-5c96-4b3e-9b4b-5a93a0aaed8e" />
+        <classShapeMoniker Id="4a5a7f0a-bb63-4b0b-b215-a56d222b1b23" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 18.1349003092448); (7.5 : 19.625); (8.75 : 19.625); (8.75 : 43.8848024495443); (18 : 43.8848024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Enterprise/Enterprise_EnterpriseRecruitBatch" />
+      <nodes>
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+        <classShapeMoniker Id="79be9917-5c96-4b3e-9b4b-5a93a0aaed8e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 15.4402630615234); (6.5 : 15.4402630615234)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseScope/EnterpriseScope_Enterprise" />
+      <nodes>
+        <classShapeMoniker Id="9574cdfe-b8bb-4d13-ad5d-b9e7c19653e2" />
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 13.125); (7.5 : 10.9767926025391); (9.25 : 10.9767926025391)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Enterprise/Enterprise_EnterpriseVisited" />
+      <nodes>
+        <classShapeMoniker Id="2448fd87-b7b3-4d0e-90e8-4f2ee81aef5d" />
+        <classShapeMoniker Id="4d3f2b53-1c11-4c8c-a849-dd9893586f3a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 35.6312827555339); (14.75 : 35.6312827555339); (14.75 : 33.5); (15.9166666666667 : 33.5 : JumpStart); (16.0833333333333 : 33.5 : JumpEnd); (17.5 : 33.5); (17.5 : 30.9535852050781); (19.8541691666667 : 30.9535852050781 : JumpStart); (20.0208358333333 : 30.9535852050781 : JumpEnd); (21.75 : 30.9535852050781); (21.75 : 30.5785852050781)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequester/EnterpriseJobRequester_JobRequestRecruitStage" />
+      <nodes>
+        <classShapeMoniker Id="77c2ff5d-f525-413f-a266-3d327362b700" />
+        <classShapeMoniker Id="e6d8027d-d33d-4df2-acf8-4b0d8deeb323" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 34.0062827555339); (5.75 : 34.0062827555339); (5.75 : 30.625); (5.79166666666667 : 30.625 : JumpStart); (5.95833333333333 : 30.625 : JumpEnd); (6.04166666666667 : 30.625 : JumpStart); (6.20833333333333 : 30.625 : JumpEnd); (8.41666666666667 : 30.625 : JumpStart); (8.83333333333333 : 30.625 : JumpEnd); (9.01041666666667 : 30.625 : JumpStart); (9.17708333333333 : 30.625 : JumpEnd); (10.25 : 30.625); (10.25 : 31.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Marjor/Marjor_Course" />
+      <nodes>
+        <classShapeMoniker Id="ad81e3ac-ddff-484e-8935-f678d204da61" />
+        <classShapeMoniker Id="daade9e1-3396-4f07-9e04-d14aa54e402c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 34.625); (2.2812525 : 33.8437475); (3.04166666666667 : 33.8437475 : JumpStart); (3.20833333333333 : 33.8437475 : JumpEnd); (3.5 : 33.8437475)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Depart/Depart_Marjor" />
+      <nodes>
+        <classShapeMoniker Id="015757e7-f657-4f01-8b24-15321f67e14f" />
+        <classShapeMoniker Id="ad81e3ac-ddff-484e-8935-f678d204da61" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.45923076923077 : 3.65868367513021); (1.45923076923077 : 3.90868367513021); (2.05461538461538 : 3.90868367513021); (2.05461538461538 : 3.65868367513021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/MessageBox/MessageBox_MessageBox" />
+      <nodes>
+        <classShapeMoniker Id="2ae9cfca-f752-4fb5-8aa5-f3f4cf08efb3" />
+        <classShapeMoniker Id="2ae9cfca-f752-4fb5-8aa5-f3f4cf08efb3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.45923076923077 : 0.75); (1.45923076923077 : 0.5); (2.05461538461538 : 0.5); (2.05461538461538 : 0.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/MessageBox/MessageBox_MessageBox1" />
+      <nodes>
+        <classShapeMoniker Id="2ae9cfca-f752-4fb5-8aa5-f3f4cf08efb3" />
+        <classShapeMoniker Id="2ae9cfca-f752-4fb5-8aa5-f3f4cf08efb3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.25 : 24.75); (13.25 : 23.3497033691406)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/ActivityType/ActivityType_PublishActivity" />
+      <nodes>
+        <classShapeMoniker Id="387b8505-c796-4946-84af-a1fbeed7556c" />
+        <classShapeMoniker Id="f36804a1-5f0b-4b33-87d9-cca845e84fd0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 21.7633221435547); (15 : 21.7633221435547)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/PublishActivity/PublishActivity_PublishActivityAttachment" />
+      <nodes>
+        <classShapeMoniker Id="f36804a1-5f0b-4b33-87d9-cca845e84fd0" />
+        <classShapeMoniker Id="90fefcd9-8fc7-43f7-b7bc-1c6320ddb130" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.90625 : 22.5785852050781); (19.90625 : 29.9588647460938); (20.75 : 29.9588647460938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/RecruitFlowSetted/RecruitFlowSetted_JobRequestRecruitStage" />
+      <nodes>
+        <classShapeMoniker Id="c301bb93-05ed-4a9e-a360-f2909184f19e" />
+        <classShapeMoniker Id="e6d8027d-d33d-4df2-acf8-4b0d8deeb323" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.9375025 : 22.5785852050781); (19.9375025 : 38.8598352050781); (20.75 : 38.8598352050781)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/RecruitFlowSetted/RecruitFlowSetted_RecruitJobRequester" />
+      <nodes>
+        <classShapeMoniker Id="c301bb93-05ed-4a9e-a360-f2909184f19e" />
+        <classShapeMoniker Id="92c7eebd-5732-4300-90c7-b6fb57bdfa39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 36.5112086914438); (14.375 : 36.8862086914438); (14.375 : 39.1514326640625); (14.7604166666667 : 39.1514326640625 : JumpStart); (14.9270833333333 : 39.1514326640625 : JumpEnd); (19.8229166666667 : 39.1514326640625 : JumpStart); (19.9895833333333 : 39.1514326640625 : JumpEnd); (20.75 : 39.1514326640625)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/EnterpriseJobRequester/EnterpriseJobRequester_RecruitJobRequester" />
+      <nodes>
+        <classShapeMoniker Id="77c2ff5d-f525-413f-a266-3d327362b700" />
+        <classShapeMoniker Id="92c7eebd-5732-4300-90c7-b6fb57bdfa39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 34.84375); (8.66666666666667 : 34.84375 : JumpStart); (8.83333333333333 : 34.84375 : JumpEnd); (11.4166666666667 : 34.84375 : JumpStart); (11.7083333333333 : 34.84375 : JumpEnd); (12 : 34.84375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_EnterpriseJobRequester" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="77c2ff5d-f525-413f-a266-3d327362b700" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 37.8171207682292); (8.66666666666667 : 37.8171207682292 : JumpStart); (8.95833333333333 : 37.8171207682292 : JumpEnd); (10.1666666666667 : 37.8171207682292 : JumpStart); (10.3333333333333 : 37.8171207682292 : JumpEnd); (11.5416666666667 : 37.8171207682292 : JumpStart); (11.7083333333333 : 37.8171207682292 : JumpEnd); (12 : 37.8171207682292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_EnterpriseJobRequestQueue" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="9fbb5b6f-0eb5-491b-b8dc-ce00f62057ec" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 35.4718913777669); (5.91666666666667 : 35.4718913777669 : JumpStart); (6.08333333333333 : 35.4718913777669 : JumpEnd); (6.25 : 35.4718913777669)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Depart/Depart_Student" />
+      <nodes>
+        <classShapeMoniker Id="015757e7-f657-4f01-8b24-15321f67e14f" />
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 33.5031413777669); (5.66666666666667 : 33.5031413777669 : JumpStart); (5.83333333333333 : 33.5031413777669 : JumpEnd); (6.25 : 33.5031413777669)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Marjor/Marjor_Student" />
+      <nodes>
+        <classShapeMoniker Id="ad81e3ac-ddff-484e-8935-f678d204da61" />
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.21769230769231 : 31.125); (8.44107443490112 : 30.9016178727912 : JumpStart); (8.55892556509888 : 30.7837667425934 : JumpEnd); (8.625 : 30.7176923076923); (8.625 : 23.8152630615234); (8.66666666666667 : 23.8152630615234 : JumpStart); (8.83333333333333 : 23.8152630615234 : JumpEnd); (9 : 23.8152630615234)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentAccessLog" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="87165f1d-fb9a-4b61-8c11-223eeb4c2cc0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.15625 : 26.5125655110677); (14.15625 : 34.21875); (14.5416666666667 : 34.21875 : JumpStart); (14.8333333333333 : 34.21875 : JumpEnd); (15 : 34.21875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/ActivityType/ActivityType_StudentActivity" />
+      <nodes>
+        <classShapeMoniker Id="387b8505-c796-4946-84af-a1fbeed7556c" />
+        <classShapeMoniker Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 23.3481639076022); (14.625 : 23.7231639076022); (14.625 : 34.9562688777669); (14.6666666666667 : 34.9562688777669 : JumpStart); (14.8333333333333 : 34.9562688777669 : JumpEnd); (15 : 34.9562688777669)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/PublishActivity/PublishActivity_StudentActivity" />
+      <nodes>
+        <classShapeMoniker Id="f36804a1-5f0b-4b33-87d9-cca845e84fd0" />
+        <classShapeMoniker Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 34.515625); (8.66666666666667 : 34.515625 : JumpStart); (8.83333333333333 : 34.515625 : JumpEnd); (11.4166666666667 : 34.515625 : JumpStart); (11.7083333333333 : 34.515625 : JumpEnd); (14.5416666666667 : 34.515625 : JumpStart); (14.8333333333333 : 34.515625 : JumpEnd); (15 : 34.515625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentActivity" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17 : 36.5863812255859); (17.4166666666667 : 36.5863812255859 : JumpStart); (17.5833333333333 : 36.5863812255859 : JumpEnd); (17.75 : 36.5863812255859)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentActivity/StudentActivity_StudentActivityAttachment" />
+      <nodes>
+        <classShapeMoniker Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" />
+        <classShapeMoniker Id="88545ee1-2b97-4055-b81f-ef3b1ddd6584" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17 : 34.3848024495443); (17.75 : 34.3848024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentActivity/StudentActivity_StudentActivityComment" />
+      <nodes>
+        <classShapeMoniker Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" />
+        <classShapeMoniker Id="c3ab430e-1b4b-4abf-9619-f33c4bcd8a0a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.4592307692308 : 35.0196048990885); (18.4592307692308 : 35.2696048990885); (19.0546153846154 : 35.2696048990885); (19.0546153846154 : 35.0196048990885)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentActivityComment/StudentActivityComment_StudentActivityComment" />
+      <nodes>
+        <classShapeMoniker Id="c3ab430e-1b4b-4abf-9619-f33c4bcd8a0a" />
+        <classShapeMoniker Id="c3ab430e-1b4b-4abf-9619-f33c4bcd8a0a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 32.6017926025391); (11.4166666666667 : 32.6017926025391 : JumpStart); (11.7083333333333 : 32.6017926025391 : JumpEnd); (12 : 32.6017926025391)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Course/Course_StudentCourse" />
+      <nodes>
+        <classShapeMoniker Id="daade9e1-3396-4f07-9e04-d14aa54e402c" />
+        <classShapeMoniker Id="b15aeed1-a013-4f8e-ba54-10e3221dfc41" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 31.3125025); (8.41666666666667 : 31.3125025 : JumpStart); (8.58333333333333 : 31.3125025 : JumpEnd); (8.66666666666667 : 31.3125025 : JumpStart); (8.95833333333333 : 31.3125025 : JumpEnd); (9.01041666666667 : 31.3125025 : JumpStart); (9.17708333333333 : 31.3125025 : JumpEnd); (10.1666666666667 : 31.3125025 : JumpStart); (10.3333333333333 : 31.3125025 : JumpEnd); (10.6979186666667 : 31.3125025 : JumpStart); (10.8645853333333 : 31.3125025 : JumpEnd); (11.4166666666667 : 31.3125025 : JumpStart); (11.7083333333333 : 31.3125025 : JumpEnd); (13 : 31.3125025); (13 : 31.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentCourse" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="b15aeed1-a013-4f8e-ba54-10e3221dfc41" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.781252 : 31.5); (10.781252 : 31); (11.4166666666667 : 31 : JumpStart); (11.7083333333333 : 31 : JumpEnd); (13.8229166666667 : 31 : JumpStart); (13.9895833333333 : 31 : JumpEnd); (14.0729166666667 : 31 : JumpStart); (14.2395833333333 : 31 : JumpEnd); (14.5416666666667 : 31 : JumpStart); (14.7083333333333 : 31 : JumpEnd); (14.75 : 31); (14.75 : 32.5133221435547); (15.9166666666667 : 32.5133221435547 : JumpStart); (16.0833333333333 : 32.5133221435547 : JumpEnd); (17.4166666666667 : 32.5133221435547 : JumpStart); (17.5833333333333 : 32.5133221435547 : JumpEnd); (19.8541691666667 : 32.5133221435547 : JumpStart); (20.0208358333333 : 32.5133221435547 : JumpEnd); (20.75 : 32.5133221435547)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Course/Course_StudentCourseScore" />
+      <nodes>
+        <classShapeMoniker Id="daade9e1-3396-4f07-9e04-d14aa54e402c" />
+        <classShapeMoniker Id="b91cdac1-bcc4-4ae3-8369-34e593d773ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 32.7254110717773); (14.0729166666667 : 32.7254110717773 : JumpStart); (14.2395833333333 : 32.7254110717773 : JumpEnd); (14.5416666666667 : 32.7254110717773 : JumpStart); (14.7083333333333 : 32.7254110717773 : JumpEnd); (15.9166666666667 : 32.7254110717773 : JumpStart); (16.0833333333333 : 32.7254110717773 : JumpEnd); (17.4166666666667 : 32.7254110717773 : JumpStart); (17.5833333333333 : 32.7254110717773 : JumpEnd); (19.8541691666667 : 32.7254110717773 : JumpStart); (20.0208358333333 : 32.7254110717773 : JumpEnd); (20.75 : 32.7254110717773)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentCourse/StudentCourse_StudentCourseScore" />
+      <nodes>
+        <classShapeMoniker Id="b15aeed1-a013-4f8e-ba54-10e3221dfc41" />
+        <classShapeMoniker Id="b91cdac1-bcc4-4ae3-8369-34e593d773ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 34.1756222965495); (8.66666666666667 : 34.1756222965495 : JumpStart); (8.83333333333333 : 34.1756222965495 : JumpEnd); (9.09375 : 34.1756222965495); (9.09375 : 29.8285852050781)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentDailyEssay" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="ea2664d2-3fc3-4a6e-9e0b-92c4ccb46a97" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 28.8517926025391); (11.4166666666667 : 28.8517926025391 : JumpStart); (11.7083333333333 : 28.8517926025391 : JumpEnd); (11.75 : 28.8517926025391)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentDailyEssay/StudentDailyEssay_StudentDailyEssayComment" />
+      <nodes>
+        <classShapeMoniker Id="ea2664d2-3fc3-4a6e-9e0b-92c4ccb46a97" />
+        <classShapeMoniker Id="05be6520-5c2a-4538-b36c-969133b7eba5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.4592307692308 : 29.8946048990885); (12.4592307692308 : 30.1446048990885); (13.0546153846154 : 30.1446048990885); (13.0546153846154 : 29.8946048990885)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentDailyEssayComment/StudentDailyEssayComment_StudentDailyEssayComment" />
+      <nodes>
+        <classShapeMoniker Id="05be6520-5c2a-4538-b36c-969133b7eba5" />
+        <classShapeMoniker Id="05be6520-5c2a-4538-b36c-969133b7eba5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 38.2361169433594); (7.25 : 51.6678122965495); (7.69791916666667 : 51.6678122965495 : JumpStart); (7.86458583333333 : 51.6678122965495 : JumpEnd); (9 : 51.6678122965495)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentDictory" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="dcaed7e4-4e1d-42ce-8f1b-702f589859dc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 55.6383221435547); (11.75 : 55.6383221435547)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentFamilyAccount/StudentFamilyAccount_FamilyAccount" />
+      <nodes>
+        <classShapeMoniker Id="0e4b251b-741a-4872-9121-058f58ce654f" />
+        <classShapeMoniker Id="2b22a743-0193-4c48-a815-3a1e0a9fbac5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.7812525 : 38.2361169433594); (7.7812525 : 55.7043418375651); (9 : 55.7043418375651)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentFamilyAccount" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="0e4b251b-741a-4872-9121-058f58ce654f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.7187475 : 38.2361169433594); (6.7187475 : 42.4473024495443); (7.16666666666667 : 42.4473024495443 : JumpStart); (7.33333333333333 : 42.4473024495443 : JumpEnd); (7.43229291666667 : 42.4473024495443 : JumpStart); (7.59895958333333 : 42.4473024495443 : JumpEnd); (7.69791916666667 : 42.4473024495443 : JumpStart); (7.86458583333333 : 42.4473024495443 : JumpEnd); (7.96354541666667 : 42.4473024495443 : JumpStart); (8.13021208333333 : 42.4473024495443 : JumpEnd); (8.66666666666667 : 42.4473024495443 : JumpStart); (8.83333333333333 : 42.4473024495443 : JumpEnd); (9 : 42.4473024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentJobExpect" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="100e546d-1186-46e7-ae78-00ca391672b8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 51.6678122965495); (11.75 : 51.6678122965495)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentDictory/StudentDictory_StudentPhoto" />
+      <nodes>
+        <classShapeMoniker Id="dcaed7e4-4e1d-42ce-8f1b-702f589859dc" />
+        <classShapeMoniker Id="2d5dd6bd-a0cb-4d8b-9f36-c02a1c974bf3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.75 : 50.5); (12.75 : 48.6973024495443); (14.5 : 48.6973024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentPhoto/StudentPhoto_StudentPhotoComment" />
+      <nodes>
+        <classShapeMoniker Id="2d5dd6bd-a0cb-4d8b-9f36-c02a1c974bf3" />
+        <classShapeMoniker Id="0a9ac6c0-cb5a-4006-a6c7-7d417e4697a4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 50.5); (11.375 : 50.125); (11.375 : 49.2647056743164); (12.6666666666667 : 49.2647056743164 : JumpStart); (12.8333333333333 : 49.2647056743164 : JumpEnd); (14.5 : 49.2647056743164)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentDictory/StudentDictory_StudentPhotoComment" />
+      <nodes>
+        <classShapeMoniker Id="dcaed7e4-4e1d-42ce-8f1b-702f589859dc" />
+        <classShapeMoniker Id="0a9ac6c0-cb5a-4006-a6c7-7d417e4697a4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 51.7267926025391); (14.5 : 51.7267926025391)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentPhoto/StudentPhoto_StudentPhotoVisit" />
+      <nodes>
+        <classShapeMoniker Id="2d5dd6bd-a0cb-4d8b-9f36-c02a1c974bf3" />
+        <classShapeMoniker Id="e834fa2e-65af-4fa7-b6da-50415d784268" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.968748 : 50.5); (9.968748 : 50.25); (11.1666666666667 : 50.25 : JumpStart); (11.3333333333333 : 50.25 : JumpEnd); (12.6666666666667 : 50.25 : JumpStart); (12.8333333333333 : 50.25 : JumpEnd); (14.125 : 50.25); (14.125 : 51.2071443012695); (14.5 : 51.2071443012695)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentDictory/StudentDictory_StudentPhotoVisit" />
+      <nodes>
+        <classShapeMoniker Id="dcaed7e4-4e1d-42ce-8f1b-702f589859dc" />
+        <classShapeMoniker Id="e834fa2e-65af-4fa7-b6da-50415d784268" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.04687875 : 38.2361169433594); (8.04687875 : 45.5723024495443); (9 : 45.5723024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentProfessional" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="5b43d3d6-2387-4319-a184-1a0c43638cf3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 45.5723024495443); (11.75 : 45.5723024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentProfessional/StudentProfessional_StudentProfessionalAttachment" />
+      <nodes>
+        <classShapeMoniker Id="5b43d3d6-2387-4319-a184-1a0c43638cf3" />
+        <classShapeMoniker Id="446be621-9df3-4288-8cab-65751046f61d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 31.1588451538462); (8.44107443490112 : 30.967770718945 : JumpStart); (8.55892556509888 : 30.8499195887473 : JumpEnd); (8.65884515384615 : 30.75); (8.66666666666667 : 30.75 : JumpStart); (8.83333333333333 : 30.75 : JumpEnd); (9.01041666666667 : 30.75 : JumpStart); (9.17708333333333 : 30.75 : JumpEnd); (10.1666666666667 : 30.75 : JumpStart); (10.3333333333333 : 30.75 : JumpEnd); (11.4166666666667 : 30.75 : JumpStart); (11.7083333333333 : 30.75 : JumpEnd); (13.8229166666667 : 30.75 : JumpStart); (13.9895833333333 : 30.75 : JumpEnd); (14.0729166666667 : 30.75 : JumpStart); (14.2395833333333 : 30.75 : JumpEnd); (14.5416666666667 : 30.75 : JumpStart); (14.7083333333333 : 30.75 : JumpEnd); (14.75 : 30.75); (14.75 : 29.0618412272135); (15 : 28.8118412272135)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentProject" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="03b656dd-11cb-46c4-bd75-7be93b3784d2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17 : 27.7809206136068); (17.75 : 27.7809206136068)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentProject/StudentProject_StudentProjectAttachment" />
+      <nodes>
+        <classShapeMoniker Id="03b656dd-11cb-46c4-bd75-7be93b3784d2" />
+        <classShapeMoniker Id="687e1297-78ff-4054-aff3-0c225e917aae" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.4592307692308 : 26.0196048990885); (18.4592307692308 : 26.2696048990885); (19.0546153846154 : 26.2696048990885); (19.0546153846154 : 26.0196048990885)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentProjectComment/StudentProjectComment_StudentProjectComment" />
+      <nodes>
+        <classShapeMoniker Id="f5b9f48d-2f41-4984-be95-57140fa43431" />
+        <classShapeMoniker Id="f5b9f48d-2f41-4984-be95-57140fa43431" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17 : 25.1973024495443); (17.75 : 25.1973024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/StudentProject/StudentProject_StudentProjectComment" />
+      <nodes>
+        <classShapeMoniker Id="03b656dd-11cb-46c4-bd75-7be93b3784d2" />
+        <classShapeMoniker Id="f5b9f48d-2f41-4984-be95-57140fa43431" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.51562625 : 38.2361169433594); (7.51562625 : 48.6973024495443); (7.69791916666667 : 48.6973024495443 : JumpStart); (7.86458583333333 : 48.6973024495443 : JumpEnd); (9 : 48.6973024495443)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentScore" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="99138da4-038c-4678-8770-ceb7135897a4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 38.0578713557943); (8.66666666666667 : 38.0578713557943 : JumpStart); (8.95833333333333 : 38.0578713557943 : JumpEnd); (9.046875 : 38.0578713557943); (9.046875 : 38.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Student/Student_StudentVisited" />
+      <nodes>
+        <classShapeMoniker Id="35bc7899-468b-4b4c-a9b7-898117ba4243" />
+        <classShapeMoniker Id="0c3d385b-1eb3-4363-a1f3-0d1081cc1b46" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 28.7500005); (6 : 28.7500005); (6 : 30.4465458170573); (6.04166666666667 : 30.4465458170573 : JumpStart); (6.20833333333333 : 30.4465458170573 : JumpEnd); (8.41666666666667 : 30.4465458170573 : JumpStart); (8.83333333333333 : 30.4465458170573 : JumpEnd); (9.01041666666667 : 30.4465458170573 : JumpStart); (9.17708333333333 : 30.4465458170573 : JumpEnd); (11.4166666666667 : 30.4465458170573 : JumpStart); (11.7083333333333 : 30.4465458170573 : JumpEnd); (13.8229166666667 : 30.4465458170573 : JumpStart); (13.9895833333333 : 30.4465458170573 : JumpEnd); (14.0729166666667 : 30.4465458170573 : JumpStart); (14.2395833333333 : 30.4465458170573 : JumpEnd); (14.5416666666667 : 30.4465458170573 : JumpStart); (14.8333333333333 : 30.4465458170573 : JumpEnd); (14.875 : 30.4465458170573); (14.875 : 32.2766442871094); (16 : 32.2766442871094); (16 : 33.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Teacher/Teacher_StudentActivity" />
+      <nodes>
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+        <classShapeMoniker Id="8c9c77f5-806e-46b7-ae82-d7f6a37ee20a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 27.28125); (7.41666666666667 : 27.28125 : JumpStart); (7.58333333333333 : 27.28125 : JumpEnd); (8.54166666666667 : 27.28125 : JumpStart); (8.83333333333333 : 27.28125 : JumpEnd); (11.4166666666667 : 27.28125 : JumpStart); (11.7083333333333 : 27.28125 : JumpEnd); (13.90625 : 27.28125); (13.90625 : 31.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Teacher/Teacher_StudentCourse" />
+      <nodes>
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+        <classShapeMoniker Id="b15aeed1-a013-4f8e-ba54-10e3221dfc41" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 27.546875); (7.41666666666667 : 27.546875 : JumpStart); (7.58333333333333 : 27.546875 : JumpEnd); (8.54166666666667 : 27.546875 : JumpStart); (8.83333333333333 : 27.546875 : JumpEnd); (11.4166666666667 : 27.546875 : JumpStart); (11.7083333333333 : 27.546875 : JumpEnd); (13.8229166666667 : 27.546875 : JumpStart); (13.9895833333333 : 27.546875 : JumpEnd); (14.0729166666667 : 27.546875 : JumpStart); (14.2395833333333 : 27.546875 : JumpEnd); (14.5416666666667 : 27.546875 : JumpStart); (14.7083333333333 : 27.546875 : JumpEnd); (15 : 27.546875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Teacher/Teacher_StudentProject" />
+      <nodes>
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+        <classShapeMoniker Id="03b656dd-11cb-46c4-bd75-7be93b3784d2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 34.6262078813977); (3.125 : 34.2512078813977); (3.125 : 29.3799501546224); (3.5 : 29.3799501546224)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Depart/Depart_Teacher" />
+      <nodes>
+        <classShapeMoniker Id="015757e7-f657-4f01-8b24-15321f67e14f" />
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 28.0652630615234); (3.5 : 28.0652630615234)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Education/Education_Teacher" />
+      <nodes>
+        <classShapeMoniker Id="56847be7-3bee-43b0-a031-7391f2f4269d" />
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 30.4767926025391); (3.04166666666667 : 30.4767926025391 : JumpStart); (3.20833333333333 : 30.4767926025391 : JumpEnd); (3.5 : 30.4767926025391)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/TeacherGroup/TeacherGroup_Teacher" />
+      <nodes>
+        <classShapeMoniker Id="d599bb8d-7826-40ec-8b03-cb2d09b526d3" />
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 31.53125); (11.4166666666667 : 31.53125 : JumpStart); (11.7083333333333 : 31.53125 : JumpEnd); (12.9166666666667 : 31.53125 : JumpStart); (13.0833333333333 : 31.53125 : JumpEnd); (13.8229166666667 : 31.53125 : JumpStart); (13.9895833333333 : 31.53125 : JumpEnd); (14.0729166666667 : 31.53125 : JumpStart); (14.2395833333333 : 31.53125 : JumpEnd); (14.5416666666667 : 31.53125 : JumpStart); (14.9583333333333 : 31.53125 : JumpEnd); (15 : 31.53125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Course/Course_TeacherRelativeCourse" />
+      <nodes>
+        <classShapeMoniker Id="daade9e1-3396-4f07-9e04-d14aa54e402c" />
+        <classShapeMoniker Id="9a3314a1-e5ba-4126-acf8-888d2cfe5c34" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 33.125); (4.5 : 32.1349003092448); (4.91666616666667 : 32.1349003092448 : JumpStart); (5.08333283333333 : 32.1349003092448 : JumpEnd); (5.54166666666667 : 32.1349003092448 : JumpStart); (6.08333333333333 : 32.1349003092448 : JumpEnd); (6.125 : 32.1349003092448); (6.125 : 30.3527958170573); (8.41666666666667 : 30.3527958170573 : JumpStart); (8.83333333333333 : 30.3527958170573 : JumpEnd); (9.01041666666667 : 30.3527958170573 : JumpStart); (9.17708333333333 : 30.3527958170573 : JumpEnd); (11.4166666666667 : 30.3527958170573 : JumpStart); (11.7083333333333 : 30.3527958170573 : JumpEnd); (13.8229166666667 : 30.3527958170573 : JumpStart); (13.9895833333333 : 30.3527958170573 : JumpEnd); (14.0729166666667 : 30.3527958170573 : JumpStart); (14.2395833333333 : 30.3527958170573 : JumpEnd); (14.5416666666667 : 30.3527958170573 : JumpStart); (14.8333333333333 : 30.3527958170573 : JumpEnd); (15 : 30.3527958170573)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Marjor/Marjor_TeacherRelativeCourse" />
+      <nodes>
+        <classShapeMoniker Id="ad81e3ac-ddff-484e-8935-f678d204da61" />
+        <classShapeMoniker Id="9a3314a1-e5ba-4126-acf8-888d2cfe5c34" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.9999995 : 31.8849003092448); (4.9999995 : 32.3849003092448); (5.66666666666667 : 32.3849003092448 : JumpStart); (5.83333333333333 : 32.3849003092448 : JumpEnd); (5.875 : 32.3849003092448); (5.875 : 30.5357729085286); (6.04166666666667 : 30.5357729085286 : JumpStart); (6.20833333333333 : 30.5357729085286 : JumpEnd); (8.41666666666667 : 30.5357729085286 : JumpStart); (8.83333333333333 : 30.5357729085286 : JumpEnd); (9.01041666666667 : 30.5357729085286 : JumpStart); (9.17708333333333 : 30.5357729085286 : JumpEnd); (11.4166666666667 : 30.5357729085286 : JumpStart); (11.7083333333333 : 30.5357729085286 : JumpEnd); (13.8229166666667 : 30.5357729085286 : JumpStart); (13.9895833333333 : 30.5357729085286 : JumpEnd); (14.0729166666667 : 30.5357729085286 : JumpStart); (14.2395833333333 : 30.5357729085286 : JumpEnd); (14.5416666666667 : 30.5357729085286 : JumpStart); (14.9583333333333 : 30.5357729085286 : JumpEnd); (15 : 30.5357729085286)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Teacher/Teacher_TeacherRelativeCourse" />
+      <nodes>
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+        <classShapeMoniker Id="9a3314a1-e5ba-4126-acf8-888d2cfe5c34" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 31.4535852050781); (1.75 : 32.2599003092448); (3.04166666666667 : 32.2599003092448 : JumpStart); (3.20833333333333 : 32.2599003092448 : JumpEnd); (4.41666666666667 : 32.2599003092448 : JumpStart); (4.58333333333333 : 32.2599003092448 : JumpEnd); (4.91666616666667 : 32.2599003092448 : JumpStart); (5.08333283333333 : 32.2599003092448 : JumpEnd); (5.625 : 32.2599003092448); (5.625 : 29.4732726585286); (5.91666666666667 : 29.4732726585286 : JumpStart); (6.08333333333333 : 29.4732726585286 : JumpEnd); (6.25 : 29.4732726585286)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/TeacherGroup/TeacherGroup_TeacherRelativeGroup" />
+      <nodes>
+        <classShapeMoniker Id="d599bb8d-7826-40ec-8b03-cb2d09b526d3" />
+        <classShapeMoniker Id="abd241e2-92e8-4909-bf91-0e147b96ca36" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 29.897409237793); (5.54166666666667 : 29.897409237793 : JumpStart); (5.70833333333333 : 29.897409237793 : JumpEnd); (5.91666666666667 : 29.897409237793 : JumpStart); (6.08333333333333 : 29.897409237793 : JumpEnd); (6.25 : 29.897409237793)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CVAcademicianDataContext/Teacher/Teacher_TeacherRelativeGroup" />
+      <nodes>
+        <classShapeMoniker Id="8b4bbc6a-aa62-49aa-8320-0a5f9e6aebe4" />
+        <classShapeMoniker Id="abd241e2-92e8-4909-bf91-0e147b96ca36" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

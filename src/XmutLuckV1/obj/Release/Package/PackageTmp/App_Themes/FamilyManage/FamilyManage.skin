@@ -1,0 +1,12 @@
+﻿<telerik:RadGrid runat="server" AllowCustomPaging="True" AllowPaging="True" PageSize="30">
+ <ClientSettings>
+      <ClientEvents OnRowMouseOver="RowMouseOver" OnRowMouseOut="RowMouseOut" OnRowClick="RowClick" OnRowDeleting="RowDeleting"></ClientEvents>
+ </ClientSettings>
+   <MasterTableView AllowCustomPaging="True" AllowPaging="True">          
+    <NoRecordsTemplate>
+      <div>没有记录!</div>
+    </NoRecordsTemplate>
+    <PagerStyle AlwaysVisible="True" ShowPagerText="True" PagerTextFormat="{4} 当前页: {0} 共 {1} 页, 共 {5} 条数据"></PagerStyle>
+  </MasterTableView>
+</telerik:RadGrid>
+<telerik:RadTabStrip runat="server" Skin="Telerik" OnClientTabSelected="TabSelected"></telerik:RadTabStrip>

@@ -1,0 +1,8 @@
+﻿@import url("../BaseManage/StyleSheet.css");
+.body-content .main .wrap-right .user-right.upload-image .image-container
+{
+    border:1px solid #ddd;
+    width:210px;
+    height:200px;
+    text-align:center;
+}

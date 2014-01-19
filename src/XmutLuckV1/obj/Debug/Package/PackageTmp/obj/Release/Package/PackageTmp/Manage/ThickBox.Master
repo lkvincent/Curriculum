@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ThickBox.master.cs" Inherits="XmutLuckV1.Manage.ThickBox" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="Stylesheet" href="../Scripts/thickbox/css/thickbox.css" />
+    <link type="text/css" rel="stylesheet" href="../Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <script type="text/javascript" src="../../Scripts/jqwidgets/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/thickbox/thickbox.js"></script>
+    <script type="text/javascript" src="../../Scripts/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="../../Scripts/jqwidgets/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="../../Scripts/jqwidgets/jqwidgets/jqxinput.js"></script>
+    <script type="text/javascript" src="../../Scripts/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="../../Scripts/BaseManage.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input[type='submit'],input[type='button'],button").jqxButton({height:28});
+
+
+            $(".edit-text").jqxInput({ height: 22});
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManage" runat="server">
+        </asp:ScriptManager>
+        <div class="">
+            <telerik:RadAjaxLoadingPanel ID="ajaxLoadingPanel" runat="server">
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+                        <td style="width: 100%; height: 100%; vertical-align: middle; text-align: center;">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/loadingAnimation.gif" />
+                        </td>
+                    </tr>
+                </table>
+            </telerik:RadAjaxLoadingPanel>
+            <div class="condition">
+<%--                <div class="caption">
+                    <h4>搜索条件</h4>
+                </div>--%>
+                <div class="container">
+                    <asp:ContentPlaceHolder ID="contentPlaceCondition" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="action">
+                <asp:ContentPlaceHolder ID="contentPlaceAction" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="list">
+                <asp:ContentPlaceHolder ID="contentPlaceList" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

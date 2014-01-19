@@ -1,0 +1,128 @@
+﻿<%@ master language="C#" autoeventwireup="true" codebehind="Master.master.cs" inherits="XmutLuckV1.Manage.Master" %>
+
+<%@ register src="~/Manage/UserControl/MenuNaviageControl.ascx" tagname="MenuNaviageControl"
+    tagprefix="uc" %>
+<%@ register src="UserControl/Footer.ascx" tagname="footer" tagprefix="uc" %>
+<%@ register src="UserControl/MenuControl.ascx" tagname="MenuControl" tagprefix="uc" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="Stylesheet" href="/Scripts/thickbox/css/thickbox.css" />
+    <script type="text/javascript" src="/Scripts/jqwidgets/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/thickbox/thickbox.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="master xmca-toplevel">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManage" runat="server">
+            <Services>
+                <asp:ServiceReference Path="~/Ajax/AjaxService.asmx" />
+            </Services>
+        </asp:ScriptManager>
+        <telerik:radajaxloadingpanel id="ajaxLoadingPanel" runat="server">
+            <table style="width: 100%; height: 100%;">
+                <tr>
+                    <td style="width: 100%; height: 100%; vertical-align: middle; text-align: center;">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/loadingAnimation.gif" />
+                    </td>
+                </tr>
+            </table>
+        </telerik:radajaxloadingpanel>
+        <telerik:radajaxmanager id="ajaxManage" runat="server">
+        </telerik:radajaxmanager>
+        <div class="body-content">
+            <div class="xmca-topbar">
+                <div class="xmca-container">
+                    <div class="xmca-user">
+                        <asp:ContentPlaceHolder ID="contentUserInfo" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="xmca-menu">
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="link2Home" runat="server" Text="进入前台首页" NavigateUrl="~/Template/Default.aspx"></asp:HyperLink></span>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="linkLogout" runat="server" Text="注销" NavigateUrl="~/LogOffAccount.aspx"></asp:HyperLink>
+                            </li>
+                        </ul>
+                        <asp:ContentPlaceHolder ID="contentTopMenu" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <br class="clear" />
+                </div>
+            </div>
+            <div class="head">
+                <div class="menu">
+                    <uc:menucontrol id="MenuControl" runat="server"></uc:menucontrol>
+                </div>
+            </div>
+            <div class="main">
+                <div class="wrap-container">
+                    <div class="wrap-left widget">
+                        <div class="widget_top"></div>
+                        <div class="caption func-caption">
+                            <h1>功能应用</h1>
+                        </div>
+                        <uc:menunaviagecontrol id="MenuNaviageControl" runat="server">
+                        </uc:menunaviagecontrol>
+                        <div class="widget_buttom"></div>
+                    </div>
+
+                    <div class="wrap-right widget">
+                        <div class="widget_top"></div>
+                        <iframe id="frame" src="<%=DefaultPage %>" width="100%" height="100%" scrolling="no"
+                            frameborder="0"></iframe>
+                        <div class="widget_buttom"></div>
+                    </div>
+                    <br class="clear" />
+                </div>
+            </div>
+            <div class="footer">
+                <uc:footer id="ucFooter" runat="server"></uc:footer>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        var FFextraHeight = 0;
+        function dynIframeSize(iframename) {
+
+            var pTar = null;
+            var h = 400; if (document.getElementById) {
+                pTar = document.getElementById(iframename);
+            }
+            else {
+                eval('pTar = ' + iframename + ';');
+            }
+            if (pTar) {
+                //begin resizing iframe   
+                pTar.style.display = "block"
+                if (pTar.contentDocument && pTar.contentDocument.body && pTar.contentDocument.body.offsetHeight) {
+                    //ns6 syntax
+                    h = pTar.contentDocument.body.offsetHeight + FFextraHeight;
+                }
+                else if (pTar.Document && pTar.Document.body && pTar.Document.body.scrollHeight) {
+                    //ie5+ syntax  
+                    h = pTar.Document.body.scrollHeight + FFextraHeight;
+                }
+                if (h > 400) {
+                    pTar.height = h + 1;
+                }
+                else {
+                    pTar.height = 400;
+                }
+            }
+        }
+
+        /*End Iframe loading*/
+        function ResetSize() {
+            dynIframeSize("frame");
+        }
+    </script>
+</body>
+</html>

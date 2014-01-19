@@ -1,0 +1,12 @@
+E:\个人文件夹\项目\履历系统\XmutLuckV1\LkDataContext\bin\Debug\LkDataContext.dll.config
+E:\个人文件夹\项目\履历系统\XmutLuckV1\LkDataContext\bin\Debug\LkDataContext.dll
+E:\个人文件夹\项目\履历系统\XmutLuckV1\LkDataContext\bin\Debug\LkDataContext.pdb
+E:\个人文件夹\项目\履历系统\XmutLuckV1\LkDataContext\obj\Debug\LkDataContext.dll
+E:\个人文件夹\项目\履历系统\XmutLuckV1\LkDataContext\obj\Debug\LkDataContext.pdb
+D:\Personal\PJO\XmutLuckV1\LkDataContext\bin\Debug\LkDataContext.dll.config
+D:\Personal\PJO\XmutLuckV1\LkDataContext\bin\Debug\LkDataContext.dll
+D:\Personal\PJO\XmutLuckV1\LkDataContext\bin\Debug\LkDataContext.pdb
+D:\Personal\PJO\XmutLuckV1\LkDataContext\obj\Debug\LkDataContext.csprojResolveAssemblyReference.cache
+D:\Personal\PJO\XmutLuckV1\LkDataContext\obj\Debug\LkDataContext.dll
+D:\Personal\PJO\XmutLuckV1\LkDataContext\obj\Debug\LkDataContext.pdb
+E:\个人文件夹\项目\履历系统\XmutLuckV1\LkDataContext\obj\Debug\LkDataContext.csprojResolveAssemblyReference.cache

@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="XmutLuckV1.Manage.Login" %>
+
+<%@ Register Src="UserControl/Footer.ascx" TagName="footer" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="Stylesheet" href="/Scripts/thickbox/css/thickbox.css" />
+    <link type="text/css" rel="stylesheet" href="/Scripts/jqwidgets/jqwidgets/styles/jqx.base.css" />
+    <script type="text/javascript" src="/Scripts/jqwidgets/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/thickbox/thickbox.js"></script>
+    <script type="text/javascript" src="/Scripts/BaseManage.js"></script>
+    <script type="text/javascript" src="/Scripts/XMCATool.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxinput.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxdropdownlist.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxcombobox.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="/Scripts/jqwidgets/jqwidgets/jqxpanel.js"></script>
+
+    <style type="text/css">
+        .login-block .data-detail {
+            margin: 30px auto;
+        }
+
+        .login-block .reset-password {
+            width: 350px !important;
+        }
+
+        .login-block .data-detail .action a {
+            position: absolute;
+            top: 8px;
+            left: 75px;
+        }
+
+        .login-block .data-detail .action {
+            margin-top: 5px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManage" runat="server"></asp:ScriptManager>
+        <div class="main">
+            <div class="head">
+            </div>
+            <div class="body">
+                <div class="login-container">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="footer">
+                <uc:footer ID="ft" runat="server"></uc:footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
